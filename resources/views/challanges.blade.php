@@ -69,7 +69,15 @@
                 <div class="title m-b-md">
                    Challanges
                 </div>
-            <p>{{$challange}}</p>
+            <p>{{$title}}</p>
+            
+            @if($duration > 15) 
+                <p>This chapter is hard and takes time</p>
+                            
+            @elseif($duration < 15) 
+                <p>It takes only {{$duration}} minutes from your studies
+            @endif
+
             </div>
         </div>
     </body>

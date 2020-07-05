@@ -18,5 +18,10 @@ Route::get('/', function () {
 });
 
 Route::get("/challanges", function() {
-    return view('challanges', ["challange" => 'Gravity']);
+    $lesson = [
+        "title" => 'Gravity',
+        'chapter' => "Chapter 2",
+        'duration' => 2
+    ];
+    return view('challanges', $lesson);
 });
