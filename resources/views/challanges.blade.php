@@ -76,7 +76,12 @@
                             
             @elseif($duration < 15) 
                 <p>It takes only {{$duration}} minutes from your studies
+
             @endif
+
+            @unless ($chapter == "Chapter 2")
+                <p>This is not a chapter 2</p>
+            @endunless
 
             </div>
         </div>
