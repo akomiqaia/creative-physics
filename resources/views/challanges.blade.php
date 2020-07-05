@@ -75,13 +75,18 @@
                 <p>This chapter is hard and takes time</p>
                             
             @elseif($duration < 15) 
-                <p>It takes only {{$duration}} minutes from your studies
+                <p>It takes only {{$duration}} minutes from your studies </p>
 
             @endif
 
             @unless ($chapter == "Chapter 2")
                 <p>This is not a chapter 2</p>
             @endunless
+
+            @php
+                $name = "Mark";
+                echo($name);
+            @endphp
 
             </div>
         </div>
