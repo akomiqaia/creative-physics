@@ -17,6 +17,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get("/tool", function() {
-    return "blue";
+Route::get("/challanges", function() {
+    return view('challanges', ["challange" => 'Gravity']);
 });
