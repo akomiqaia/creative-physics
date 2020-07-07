@@ -9,10 +9,15 @@
       <div class="vol-9 p-5 ">
           <h1>{{ $user->name }}</h1>
           <div class="d-flex">
-            <p class="pr-5"><strong>123</strong> Followers</p>
-            <p class="pr-5"><strong>25</strong> Likes</p>
-            <p class="pr-5"><strong>45</strong> Applouse</p>
+              <p class="pr-5"><strong>123</strong> Followers</p>
+              <p class="pr-5"><strong>25</strong> Likes</p>
+              <p class="pr-5"><strong>45</strong> Applouse</p>
+          
           </div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quasi, fugit magni debitis nemo distinctio quaerat velit labore! Laudantium consequuntur quidem omnis voluptatibus inventore rerum, dicta doloribus blanditiis assumenda officia?
+              </p>
+              <a href="akom.netlify.app">akom.netlify.app</a>
       </div>
   </div>
 </div>
