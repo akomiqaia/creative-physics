@@ -83,11 +83,7 @@
                 <div class="title m-b-md">
                     Creative Phyisics
                 </div>
-                <p>As a user i want to register and keep track of my progress</p>
-                <p>As a student i want to do challanges in phyisics and keep track of my progress</p>
-                <p>As a teacher i want to check progress of my student and see what they made.</p>
-                <p>As a student i want to see all the chalanges and select one i want and complete</p>
-            </div>
+                 </div>
         </div>
     </body>
 </html>
