@@ -114,7 +114,7 @@
                                 </a>
 
                                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="profiles/{{Auth::user()->id}}">
+                                    <a class="dropdown-item" href="/profiles/{{Auth::user()->id}}">
                                         My Profile
                                     </a>
                                     <a class="dropdown-item" href="{{ route('logout') }}"
