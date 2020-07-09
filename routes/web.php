@@ -17,15 +17,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get("/challanges", function() {
-    $lesson = [
-        "title" => 'Gravity',
-        'chapter' => "Chapter 2",
-        'duration' => 2
-    ];
-    return view('challanges', $lesson);
-});
-Auth::routes();
 
-Route::get('/profile/{user}', 'ProfileController@index')->name('profile.show');
+Route::get('/challanges', 'ChallangeController@index')->name('challanges.index');
+Route::get('/challanges/create', 'ChallangeController@create')->name('challanges.create');
+
+Auth::routes();
+Route::get('/profiles/{user}', 'ProfileController@index')->name('profile.index');
+Route::get('/home', 'ChallangeController@index')->name('challanges.index');
 
