@@ -13,11 +13,11 @@
               <div class="pr-5"><strong>25k</strong> Likes</div>
               <div class="pr-5"><strong>45</strong> Failed Chllanges</div>
           </div>
-        {{-- <div class="pt-4 font-weight-bold">{{$user->profile->title}}</div>
+        <div class="pt-4 font-weight-bold">{{$user->profile->title}}</div>
         <div>{{$user->profile->description}}</div>
           <div>
             <a href="#">{{$user->profile->url}}</a>
-          </div> --}}
+          </div>
       </div>
   </div>
 </div>
